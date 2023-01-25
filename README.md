@@ -2,8 +2,7 @@
 [Kotlin公式サイトのサンプルコード](https://play.kotlinlang.org/byExample/overview) を参照して作成したKotlin学習用ソースコード
 
 ### 前提
-* Javaがインストールされていること
-* Windows11が導入されたPCを使用
+* 開発端末としてJavaがインストールされているWindows11 PCを使用
 * IDEとしてVS Codeを使用
 
 ### 導入・実行手順  
@@ -11,7 +10,8 @@
    1. [GitHubのリリースページ](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0) から `kotlin-compiler-＜バージョン＞.zip` をダウンロードする
    2. zipファイルを展開し、`kotlinc\bin` フォルダを環境変数Pathに追加する
 
-2. VSCode拡張機能のインストール
+2. VSCode拡張機能のインストール  
+   下記をインストールする
    * Kotlin
    * Kotlin Language
    * Code Runner
