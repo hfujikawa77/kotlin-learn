@@ -18,9 +18,14 @@
    * Kotlin Formatter
 3. 実行
    1. VSCode  
-      実行対象のソースコードを開いて、ソースコード左上の▷(Run Code)ボタンをクリック 
+      実行対象ソースコードを開いて、ソースコード左上の▷(Run Code)ボタンをクリック 
    2. コマンドライン  
-      PowerShellを開いて下記コマンドを実行
+      PowerShellを開いて、ソースコード(ここでは`fizzbuzz.kt`)があるフォルダに移動して、下記いずれかのコマンドを実行
+      * jarを作成しない場合
+      ```powershell
+      kotlinc fizzbuzz.kt | kotlin FizzbuzzKt 
+      ```
+      * jarを作成する場合
       ```powershell
       kotlinc fizzbuzz.kt -include-runtime -d fizzbuzz.jar | java -jar fizzbuzz.jar
       ```
