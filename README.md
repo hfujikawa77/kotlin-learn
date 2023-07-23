@@ -23,9 +23,9 @@
       PowerShellを開いて、ソースコード(ここでは`fizzbuzz.kt`)があるフォルダに移動して、下記いずれかのコマンドを実行
       * jarを作成しない場合
       ```powershell
-      kotlinc fizzbuzz.kt | kotlin FizzbuzzKt 
+      kotlinc fizzbuzz.kt && kotlin FizzbuzzKt 
       ```
       * jarを作成する場合
       ```powershell
-      kotlinc fizzbuzz.kt -include-runtime -d fizzbuzz.jar | java -jar fizzbuzz.jar
+      kotlinc fizzbuzz.kt -include-runtime -d fizzbuzz.jar && java -jar fizzbuzz.jar
       ```
